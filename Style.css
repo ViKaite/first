@@ -1,0 +1,135 @@
+
+body {
+
+    display: flex;
+    overflow: hidden;
+
+}
+.flex{
+    display: flex;
+}
+.menu{
+    background-color: black;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+    left: 0px;
+    top: 0px;
+width: 200px;
+}
+
+.menuBtn{
+    color: mistyrose;
+    cursor: pointer;
+}
+
+.menuBtn:hover{
+     color: rosybrown;
+}
+.content{
+    height: 100vh;
+    background-color: black;
+    margin-left: 200px;
+    position: absolute;
+    transition: 1s;
+}
+
+.introductionPic{
+    background-image: url("https://picsum.photos/1000");
+    background-size: cover;
+    height: 100vh;
+    width: 800px;
+    background-position: center;
+}
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 800px;
+}
+.introductionText{
+    color: mistyrose;
+    padding: 50px;
+}
+.introductionPages{
+    height: 100px;
+    width: 800px;
+    background-color: #232222;
+}
+.sectionAbout{
+    background-image: url("https://picsum.photos/999");
+    background-size: cover;
+    width: 800px;
+    color: mistyrose;
+    padding: 60px;
+
+}
+.sectionSkills{
+    width: 800px;
+    color: mistyrose;
+    padding: 60px;
+background-color: gray;
+}
+.sectionExperience{
+    width: 800px;
+    color: mistyrose;
+    padding: 60px;
+    background-color: #545353;
+}
+.sectionEducation{
+    width: 800px;
+    color: mistyrose;
+    padding: 60px;
+    background-color: gray;
+}
+.sectionPortfolio{
+    width: 800px;
+    color: mistyrose;
+    padding: 60px;
+    background-color: #545353;
+}
+.sectionContact{
+    width: 800px;
+    color: mistyrose;
+    padding: 60px;
+    background-color: gray;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    background-color: mistyrose;
+    border-radius: 10px;
+}
+.circle{
+    border-radius: 50%;
+    border: 2px solid mistyrose;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.circle:hover{
+ border: 5px solid rosybrown;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-300{
+    margin-top: 300px;
+}
+.column{
+    flex-direction: column;
+
+}
+.ml-20{
+    margin-left: 20px;
+}
+.j-center{
+    justify-content: center;
+}
+.p30{
+    padding: 30px;
+}
+
+
